@@ -1,4 +1,4 @@
-body{background-color: #06201c;
+body{background-color: #001b17;
 margin: 0;
 padding: 0;}
 
@@ -13,8 +13,9 @@ padding: 0;}
 
 .loader span  
 {
-    font-family: Arial;
-    font-size: 40px;
+    
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
     color: rgba(255, 255, 255, .1);
     display: inline-block;
     transition: all .5s;
@@ -53,20 +54,20 @@ padding: 0;}
 {
     0%
     {
-        color:rgba(255, 255, 255, 0.1);
+        color:rgb(255, 7, 7);
         transform: translateY(0);
         margin-left: 0;
     }
     25%
     {
-        color: rgba(255, 255, 0, 0.226);
+        color: yellow;
         transform: translateY(-15px);
         margin-left: 10px;
         text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
     }
     100%
     {
-        color: rgba(255, 255, 255, .1);
+        color: #069c3846;
         transform: translateY(0);
         
     }
